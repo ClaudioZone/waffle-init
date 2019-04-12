@@ -9,8 +9,9 @@ If mainly follow's the waffle's guidline and adds a few lines.
 * https://github.com/EthWorks/Waffle --> Full explanation in readme.md !
 
 # $ Commands
+~~~~
 yarn add ethereum-waffle
-// creating test contracts and test test from the resource #2
+# creating test contracts and test test from the resource #2
 yarn add openzeppelin-solidity -D
 yarn add mocha -D
 yarn add chai -D
@@ -18,10 +19,11 @@ yarn add chai -D
 npx waffle
 npx waffle config.json //--> create the config.json with waffle readme content first
 
-mocha //-- or yarn mocha ??
+mocha #-- or yarn mocha ??
 
-// add waffle && mocha to scripts in package.json
+# add waffle && mocha to scripts in package.json
 yarn test
 
 yarn add lint -D
 yarn lint
+~~~~
